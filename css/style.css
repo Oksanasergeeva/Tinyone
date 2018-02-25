@@ -1,0 +1,45 @@
+@import url("helpers.css");
+@import url("blocks/content.css");
+@import url("blocks/page-container.css");
+@import url("blocks/main-header.css");
+@import url("blocks/main-navigation.css");
+@import url("blocks/site-list.css");
+@import url("blocks/about-app.css");
+@import url("blocks/download-app.css");
+@import url("blocks/download-link.css");
+@import url("blocks/slider.css");
+@import url("blocks/features.css");
+@import url("blocks/features-list.css");
+@import url("blocks/subscription.css");
+@import url("blocks/contact-form.css");
+@import url("blocks/main-footer.css");
+@import url("blocks/social-list.css");
+@import url("blocks/contacts.css");
+
+@font-face {
+  font-family: "PT Sans";
+  src:
+    url("../fonts/ptsans.ttf") format("ttf"),
+    url("../fonts/ptsans.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src:
+    url("../fonts/ptsansbold.ttf") format("ttf"),
+    url("../fonts/optsansbold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src:
+    url("../fonts/ptsanslight.ttf") format("ttf"),
+    url("../fonts/ptsanslight.woff") format("woff");
+  font-weight: 300;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+}

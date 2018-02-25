@@ -1,0 +1,64 @@
+.contact-form {
+  width: 780px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-form__mail {
+  margin: 0;
+  border: 0;
+}
+
+.contact-form__input-mail {
+  width: 530px;
+  padding: 18px 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: inherit;
+}
+
+.contact-form__input-mail:placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(127, 137, 137);
+  font-weight: normal;
+}
+
+.contact-form__input-mail:hover {
+  border: 2px solid rgb(127, 137, 137);
+}
+
+.contact-form__input-mail:focus {
+  border: 2px solid rgb(252, 230, 0);
+}
+
+.contact-form__submit-button {
+  display: block;
+  font-size: 16px;
+  height: 50px;
+  line-height: 24px;
+  color: rgb(1, 1, 1);
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 15px 34px 40px 34px;
+  background-color: rgb(252, 230, 0);
+  border: 0;
+  border-radius: 5px;
+  outline: inherit;
+}
+
+.contact-form__submit-button:hover {
+  background-color: rgb(1, 1, 1);
+  color: rgb(252, 230, 0);
+  box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+}
+
+.contact-form__submit-button:active {
+  background-color: rgba(1, 1, 1);
+  color: rgba(252, 230, 0, 0.5);
+  box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+}

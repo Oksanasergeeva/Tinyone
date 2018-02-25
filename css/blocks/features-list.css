@@ -1,0 +1,72 @@
+.features-list {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.features-list__item {
+  width: 220px;
+  margin: 0 0 90px 0;
+  padding: 0 0 0 80px;
+  position: relative;
+}
+
+.features-list__item-title {
+  font-size: 22px;
+  line-height: 24px;
+  color: rgb(1, 1, 1);
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.features-list__item-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(137, 137, 137);
+  margin: 0;
+}
+
+.features-list__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.features-list__item--responsive::before {
+  background-image: url("../../img/icon-responsive.png");
+  background-size: 33px auto;
+}
+
+.features-list__item--psd::before {
+  background-image: url("../../img/icon-psd.png");
+  background-size: 43px auto;
+}
+
+.features-list__item--icons::before {
+  background-image: url("../../img/icon-icons.png");
+  background-size: 47px auto;
+}
+
+.features-list__item--html::before {
+  background-image: url("../../img/icon-html.png");
+  background-size: 52px auto;
+}
+
+.features-list__item--email::before {
+  background-image: url("../../img/icon-email.png");
+  background-size: 51px auto;
+}
+
+.features-list__item--download::before {
+  background-image: url("../../img/icon-download.png");
+  background-size: 36px auto;
+}

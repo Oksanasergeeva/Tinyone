@@ -1,0 +1,32 @@
+.subscription {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(1, 1, 1);
+}
+
+.subscription__container {
+  width: 780px;
+  margin: 0 auto;
+  padding: 98px 0 69px 0;
+}
+
+.subscription__title {
+  width: 400px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 32px;
+  line-height: 32px;
+  color: rgb(252, 230, 0);
+  font-weight: 600;
+}
+
+.subscription__info {
+  text-align: center;
+  display: inline-block;
+  margin: 15px auto 0 auto;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(137, 137, 137);
+  font-weight: normal;
+}

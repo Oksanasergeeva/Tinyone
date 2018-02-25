@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="96" height="29" viewBox="0 0 96 29">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 30px;
+      }
+
+      .cls-2 {
+        fill: #010101;
+        font-family: "PTSans-Bold";
+        font-weight: bold;
+      }
+    </style>
+  </defs>
+  <text y="22" class="cls-1"><tspan class="cls-2">tinyone</tspan></text>
+</svg>

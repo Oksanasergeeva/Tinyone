@@ -1,0 +1,38 @@
+.slider {
+  width: 56px;
+  min-height: 14px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.slider__button {
+  width: 13px;
+  height: 14px;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: inherit;
+}
+
+.slider__button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.slider__button:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.slider__button--active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.slider__button--active:hover,
+.slider__button--active:active {
+  background-color: rgba(255, 255, 255, 1);
+}

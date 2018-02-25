@@ -1,0 +1,17 @@
+.about-app {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(252, 219, 0);
+}
+
+.about-app__container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 56px 0 45px 0;
+  display: block;
+  background-image: url(../../img/logo-ipad.png);
+  background-size: 316px auto;
+  background-position: 600px 50px;
+  background-repeat: no-repeat;
+}

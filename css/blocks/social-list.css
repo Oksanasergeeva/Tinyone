@@ -1,0 +1,36 @@
+.social-list {
+  width: 240px;
+  padding: 0;
+  margin: 0 auto 130px auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.social-list__item {
+  display: block;
+  width: 36px;
+  min-height: 36px;
+  background-position: center;
+  background-size: 36px auto;
+  background-repeat: no-repeat;
+}
+
+.social-list__item--facebook {
+  background-image: url("../../img/facebook.png");
+}
+
+.social-list__item--twitter {
+  background-image: url("../../img/twitter.png");
+}
+
+.social-list__item--google {
+  background-image: url("../../img/google.png");
+}
+
+.social-list__item--pin {
+  background-image: url("../../img/pinterest.png");
+}

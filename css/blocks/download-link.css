@@ -1,0 +1,38 @@
+.download-link {
+  width: 200px;
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.download-link__item {
+  display: block;
+  width: 45px;
+  min-height: 45px;
+}
+
+.download-link__item--apple {
+  background-image: url("../../img/icon-fa-apple.png");
+  background-size: 33px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.download-link__item--android {
+  background-image: url("../../img/icon-fa-android.png");
+  background-size: 33px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.download-link__item--microsoft {
+  background-image: url("../../img/icon-fa-windows.png");
+  background-size: 39px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}

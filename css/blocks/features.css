@@ -1,0 +1,32 @@
+.features {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.features__container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 121px 0 40px 0;
+}
+
+.features__title {
+  display: block;
+  width: 240px;
+  font-size: 32px;
+  line-height: 32px;
+  color: rgb(1, 1, 1);
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.features__text {
+  width: 740px;
+  margin: 0 auto;
+  padding: 14px 0 70px 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+  color: rgb(49, 56, 65);
+  text-align: center;
+}

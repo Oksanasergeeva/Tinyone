@@ -1,0 +1,29 @@
+.download-app {
+  width: 400px;
+  margin: 0;
+  padding: 130px 0 160px 0;
+}
+
+.download-app__title {
+  margin: 0 0 25px 0;
+  font-size: 32px;
+  line-height: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.download-app__text-promo {
+  width: 320px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+  color: rgb(49, 56, 65);
+}
+
+.download-app__text{
+  width: 400px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  color: rgb(85, 85, 85);
+}

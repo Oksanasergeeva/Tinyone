@@ -1,0 +1,11 @@
+.main-footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(1, 1, 1);
+}
+
+.main-footer__container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 0 140px 0;
+}
